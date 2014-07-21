@@ -34,7 +34,7 @@
 			interval=startRotating(id);
 		});
 		
-		function setImagePlaceHolder(Len,id,width,height){
+		 function setImagePlaceHolder(Len,id,width,height){
 			for(var j=0;j<Len;j++)	
 			{	if(settings.imageAttribute.url[j]=="")
 					$(id).append('<img class="img-responsive" src="noimage.jpg" />');	
